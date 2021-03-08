@@ -25,5 +25,5 @@ def neighbours_classifier(neighbours_count):
     return knn
 
 
-def getLearningScore(knn):
+def get_learning_score(knn):
     return knn.score(x_test, y_test)
